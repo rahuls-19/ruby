@@ -1,5 +1,6 @@
 #!/usr/bin/env ruby
-hash = {"rahul" => "kumar",
-	"yash" => "gupta"
-}
-puts hash["rahul"]
+hash = Hash.new
+hash["India"] = "Hindi"
+hash["Pakistan"]="Urdu"
+hash["Bangladesh"]="Bengali"
+puts hash["India"]
